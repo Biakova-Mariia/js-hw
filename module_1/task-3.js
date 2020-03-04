@@ -11,10 +11,8 @@ if (enterPassword === null) {
 } else {
   if (enterPassword === ADMIN_PASSWORD) {
     console.log((message = 'Добро пожаловать!'));
-  }
-  if (enterPassword !== ADMIN_PASSWORD && enterPassword !== null) {
+  } else {
     console.log((message = 'Доступ запрещен, неверный пароль!'));
   }
 }
-
 alert(message);
